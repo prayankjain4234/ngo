@@ -1,0 +1,28 @@
+curl
+curl -X POST \ http://localhost:8888/xmp/identity/domains \ -H 'Content-Type: application/json' \ -H 'cache-control: no-cache' \ -d '{    "data": {        "netbios_name": "hvco",        "domain": "hvco.com",        "protocol": "ldap",        "secure": false,        "port": 389,        "context": "dc=hvco,dc=com",        "controller_ips": "10.110.50.20",        "username": "administrator",        "password": "ca$hc0w"    }}'
+cls
+curl -X POST  http://localhost:8888/xmp/identity/domains  -H 'Content-Type: application/json' -H 'cache-control: no-cache' -d '{    "data": {        "netbios_name": "hvco",        "domain": "hvco.com",        "protocol": "ldap",        "secure": false,        "port": 389,        "context": "dc=hvco,dc=com",        "controller_ips": "10.110.50.20",        "username": "administrator",        "password": "ca$hc0w"    }}'
+curl -X POST  "http://localhost:8888/xmp/identity/domains"  -H 'Content-Type: application/json' -H 'cache-control: no-cache' -d '{    "data": {        "netbios_name": "hvco",        "domain": "hvco.com",        "protocol": "ldap",        "secure": false,        "port": 389,        "context": "dc=hvco,dc=com",        "controller_ips": "10.110.50.20",        "username": "administrator",        "password": "ca$hc0w"    }}'
+cls
+ curl  -X POST 'http://localhost:8888/xmp/identity/domains' -H 'Content-Type: application/json' -d
+ curl  -X POST 'http://localhost:8888/xmp/identity/domains' -H 'Content-Type: application/json' -d '{}'
+ curl  -X POST 'https://localhost:8888/xmp/identity/domains' -H 'Content-Type: application/json' -d '{}'
+ curl  -X POST 'http://localhost:8888/xmp/identity/domains' -H 'Content-Type: application/json' -d '{}'
+ curl  -X POST '//localhost:8888/xmp/identity/domains' -H 'Content-Type: application/json' -d '{}'
+ curl  -X POST 'localhost:8888/xmp/identity/domains' -H 'Content-Type: application/json' -d '{}'
+ curl  -X POST '127.0.0.1:8888/xmp/identity/domains' -H 'Content-Type: application/json' -d '{}'
+ curl  -X POST 127.0.0.1:8888/xmp/identity/domains -H 'Content-Type: application/json' -d '{}'
+ curl  -X POST 127.0.0.1:8888/xmp/identity/domains -H 'Content-Type: application/json' -d "{}"
+ curl  -X POST 127.0.0.1:8888/xmp/identity/domains -H "Content-Type: application/json" -d "{}"
+ curl  -X POST 127.0.0.1:8888/xmp/identity/domains -H "Content-Type: application/json" -d "{\"data\":{}}"
+ curl  -X POST 127.0.0.1:8888/xmp/identity/domains -H "Content-Type: application/json" -d "{\"data\":{     \"netbios_name\": \"hvco\",        \"domain\": \"hvco.com\",        \"protocol\": \"ldap\",       \"secure\": false,        \"port\": 389,        \"context\": \"dc=hvco,dc=com\",        \"controller_ips\": \"10.110.50.20\",        \"username\": \"administrator\",        \"password\": \"ca$hc0w\\"}}"
+ curl  -X POST 127.0.0.1:8888/xmp/identity/domains -H "Content-Type: application/json" -d "{\"data\":{}}"
+ curl  -X POST 127.0.0.1:8888/xmp/identity/domains -H "Content-Type: application/json" -d "{\"data\":{     \"netbios_name\": \"hvco\",        \"domain\": \"hvco.com\",        \"protocol\": \"ldap\",       \"secure\": false,        \"port\": 389,        \"context\": \"dc=hvco,dc=com\",        \"controller_ips\": \"10.110.50.20\",        \"username\": \"administrator\",        \"password\": \"ca$hc0w\"}}"
+doskey /history
+doskey /history >prayankjainhistory.txt
+ping 10.110.50.20
+ping 10.108.99.101
+rake db:reset
+ping 10.108.73.236
+ping administrator@vsphere.local
+doskey /history >/Users/jprayank/Desktop/prayankjain_avm_history.txt
